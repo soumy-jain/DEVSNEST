@@ -2,6 +2,11 @@
   font-family: digital;
   src: url("digital-7.italic.ttf");
 }
+body {
+  background-color: black;
+  background-image: url("bg.jpg");
+  background-size: 70%;
+}
 h1 {
   text-align: center;
   font-family: digital;
