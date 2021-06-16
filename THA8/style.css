@@ -1,0 +1,22 @@
+.container {
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  border: none;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border: 1px solid brown;
+}
+
+td:hover
+{
+  opacity: 0.5;
+}
+
+table {
+  border-spacing: 0px;
+}
