@@ -1,53 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="calc">
-        <h1>CALCULATOR</h1>
-        <input type="text" readonly="" placeholder="8888888888888888" />
-        <table>
-          <tr>
-            <td><button>(</button></td>
-            <td><button>)</button></td>
-            <td><button>AC</button></td>
-            <td>
-              <button class="cut">%</button><button class="cut">⌫</button>
-            </td>
-          </tr>
-          <tr>
-            <td><button>9</button></td>
-            <td><button>8</button></td>
-            <td><button>7</button></td>
-            <td><button>*</button></td>
-          </tr>
-          <tr>
-            <td><button>6</button></td>
-            <td><button>5</button></td>
-            <td><button>4</button></td>
-            <td><button>/</button></td>
-          </tr>
-          <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td><button>-</button></td>
-          </tr>
-          <tr>
-            <td><button>0</button></td>
-            <td><button>.</button></td>
-            <td><button>=</button></td>
-            <td><button>+</button></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <script src="js.js"></script>
-  </body>
-</html>
+@font-face {
+  font-family: digital;
+  src: url("digital-7.italic.ttf");
+}
+body {
+  background-color: black;
+  background-image: url("bg.jpg");
+  background-size: 70%;
+}
+h1 {
+  text-align: center;
+  font-family: digital;
+  color: whitesmoke;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.calc {
+  border: 3px solid black;
+  border-radius: 5px;
+  background: rgb(0, 53, 255);
+  background: rgb(0, 53, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 53, 255, 0.9923319669664741) 0%,
+    rgba(44, 44, 139, 0.8746849081429446) 32%,
+    rgba(9, 9, 152, 1) 41%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  padding: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+input {
+  height: 50px;
+  width: 323px;
+  margin-left: 2px;
+  font-size: 42px;
+  font-family: digital;
+  border: 2px solid black;
+  border-radius: 7px;
+  outline: none;
+}
+button {
+  font-size: 30px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+button:hover {
+  background-color: red;
+  box-shadow: 0px 0px 10px black inset;
+  transform: scale(1.1);
+}
+
+.cut {
+  width: 40px;
+}
