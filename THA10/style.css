@@ -1,0 +1,56 @@
+@font-face {
+  font-family: cards;
+  src: url(RoyalFlushRegular-Dev1.ttf);
+}
+body,
+html {
+  height: 100%;
+}
+.bg {
+  background-image: url(img/main-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.matrix {
+  margin-top: 47px;
+  display: flex;
+  justify-content: center;
+}
+.block {
+  height: 240px;
+  width: 160px;
+  background-image: url(img/front.PNG);
+  background-position: center;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 6px;
+  /* flipping */
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+.block-back {
+  transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.block.is-flipped {
+  transform: rotateY(180deg);
+}
+.card_face {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+h1 {
+  text-align: center;
+  color: #ffd700;
+  font-family: cards;
+  font-size: 60px;
+}
