@@ -1,0 +1,69 @@
+.main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.butt {
+    border: none;
+    height: 50px;
+    min-width: 220px;
+    background-color: skyblue;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.butt:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.quiz {
+    margin-top: 50px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    min-width: 1100px;
+    max-width:1100px;
+    text-align: center;
+    min-height: 550px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px;
+}
+
+#res {
+    margin: 0px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#play-again, #en {
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+    padding: 15px 15px;
+    transform: scale(1.1);
+}
+.result {
+    display: none;
+}
+
+.inquiz {
+    display: none;
+}
+
+.enter{
+    margin-top: 100px;
+}
