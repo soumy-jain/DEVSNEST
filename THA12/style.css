@@ -1,0 +1,26 @@
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: green;
+    min-width: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+li:nth-child(even)
+{
+    background-color: rosybrown;
+}
+
+i {
+    margin-left: 70px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
