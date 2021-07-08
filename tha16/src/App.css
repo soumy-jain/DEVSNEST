@@ -1,0 +1,6 @@
+.App {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
