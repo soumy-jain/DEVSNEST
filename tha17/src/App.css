@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(75, 48, 181);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.data {
+  background-color: chocolate;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  margin-bottom: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App > div {
+  height: 440px;
+  overflow: auto;
+  text-align: center;
+}
+
+/* To remove scrollbar */
+
+::-webkit-scrollbar {
+  width: 0;
+}
