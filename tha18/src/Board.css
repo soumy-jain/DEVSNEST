@@ -1,0 +1,21 @@
+.boxb {
+    background-color: rgb(44, 8, 8);
+    height:50px;
+    width: 50px;
+}
+
+.boxw {
+    background-color: rgb(155, 0, 0);
+    height:50px;
+    width: 50px;
+}
+
+.row {
+    display: flex;
+    margin: -1px;
+}
+
+.board {
+    border: 3px solid black;
+    box-sizing: border-box;
+}
