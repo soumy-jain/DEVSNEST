@@ -1,0 +1,23 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(241, 189, 241);
+}
+
+.X {
+    font-size: 30px;
+    float: right;
+}
+
+li {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
