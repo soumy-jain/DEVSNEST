@@ -1,0 +1,50 @@
+html, body {
+  margin:0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 35px;
+}
+
+.door {
+  float: right;
+}
+
+.nav  {
+  padding: 10px 10px;
+  padding-left :40px;
+  background-color: cadetblue;
+  border-radius: 0 0 50px 50px;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.login {
+  margin-top: 250px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 15px;
+  height: 25px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.adjust {
+  justify-content: center;
+}
+
+button {
+  font-size: 20px;
+  padding-right: 35px;
+}
