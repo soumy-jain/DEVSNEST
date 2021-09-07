@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: url('https://wallpaperbat.com/img/301590-wallpaper-clouds-lake-element-zipper-bad-weather-florida.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  font-size: 24px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 700px;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+
+input[type=text] {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  min-height: 30px;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 1px 1px inset;
+  border-radius: 10px;
+  min-width: 70px;
+  background-color: skyblue;
+}
