@@ -1,0 +1,4 @@
+Done THA10 as follows:
+Created an EC2 instance in AWS and installed and updated node.
+Cloned a project repository.
+Installed forever npm and launched the React Project.
